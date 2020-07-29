@@ -1,0 +1,68 @@
+#ceeating variables
+a = 2
+b = 3
+
+#assignment operator
+a += 4 #adds 4 to a
+print(a)
+b -= 3 #subracts 3 from b
+print(b)
+a *= 2 # multiplyes a with 2
+print(a)
+b /= 4 #divides b with 4
+print(b)
+
+#Comparision operator and if-elif ladder
+if(a>b):
+    print("a is greatet")
+elif(a<b):
+    print("b is greater")
+else:
+    print("a and b are equal")
+
+#Bitwise operator
+p = 10
+q = 20
+print("AND operation",p & q)
+print("OR operator",p | q)
+print("NOT operator",~p)
+print("XOR operator",p^q)
+
+#For loop
+x = "pencile"
+for i in x:
+    print(i,end=" ")
+
+#range
+for i in range(5):
+    print(i)
+
+#lists
+name = ["lakshmi","sowbhagya","krishna","anitha"]
+num =[1,1,2]
+print(name + num)
+for i in num:
+    name.append(i)
+print(name.pop())
+
+#functions in python
+
+def fun(a,b):
+    print(a+b)
+    print(a-b)
+    print(a*b)
+fun(20,30)
+
+#determine datatype
+st = []
+print (type(st))
+
+#lists
+name = ["lakshmi","sowbhagya","krishna","anitha"]
+print(name[3])
+print(name[2:4])
+print(name[-1])
+
+def lakshmi(p):
+    return lambda a : a*p
+print(number=lakshmi(30))
